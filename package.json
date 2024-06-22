@@ -5,7 +5,7 @@
     "stripe-webhook-with-appsync": "bin/stripe-webhook-with-appsync.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc  --build --verbose",
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk"

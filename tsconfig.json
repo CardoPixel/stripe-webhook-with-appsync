@@ -24,6 +24,10 @@
       "./node_modules/@types"
     ]
   },
+  "include": [
+    "lambda/**/*.ts",
+    "types/*.ts"
+  ],
   "exclude": [
     "node_modules",
     "cdk.out"
