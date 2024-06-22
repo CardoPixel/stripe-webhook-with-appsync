@@ -40,7 +40,7 @@ jobs:
 
       - name: 🥾 CDK Bootstrap
         timeout-minutes: 15
-        run: cdk bootstrap aws://216363322271/us-east-1 --force
+        run: cdk bootstrap aws://846087414049/us-east-1 --force
 
       - name: ✅ CDK Synth Stack
         run: cdk synth
